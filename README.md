@@ -1,0 +1,2 @@
+# GRUD_SQLITE3_PYTHON3_TKINTER
+GRUD_SQLITE3_PYTHON3_TKINTER É um programa criado em python3, e em cima da biblioteca de interface gráfica, que é padrão do python, o tkinter, e o banco de dados sqlite3. E para que ele server? O projeto foi desenvolvido visando o armazenamento de informações pessoais de um cliente em uma empresa, e assim cria cadastros de pessoas em banco de dados, para futuras análises e alteração ou substituição dos mesmos ali em si.
