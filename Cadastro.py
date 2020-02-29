@@ -36,24 +36,24 @@ def Dll():
     dell = Tk()
 
     dell.title('DB_DELETE')
-    dell['bg'] = 'gray'
+    dell['bg'] = '#55cec8'
 
-    fr = Frame(dell, width=500, height=30, bg='white')
+    fr = Frame(dell, width=500, height=30, bg='#55cec8')
     fr.pack(side=TOP)
 
-    lb0 = Label(fr, text='DELETAR CLIENTE DO BANCO', foreground='blue', bg='white', font='Arial 15 bold')
+    lb0 = Label(fr, text='DELETAR CLIENTE DO BANCO', foreground='darkgreen', bg='#55cec8', font='Arial 15 bold')
     lb0.place(x=50, y=0)
 
-    lb2 = Label(dell, text='PRIMEIRO VEJA O ID DO CLIENTE', foreground='yellow', bg='gray', font='Arial 16 bold')
+    lb2 = Label(dell, text='PRIMEIRO VEJA O ID DO CLIENTE', foreground='darkgreen', bg='#55cec8', font='Arial 16 bold')
     lb2.place(x=20, y=40)
 
     bt2 = Button(dell, text='DELETAR', foreground='red', bg='yellow', command=Delelte)
     bt2.place(x=160, y=80)
 
-    lb3 = Label(dell, text='Tabela', foreground='yellow', bg='gray', font='Arial 14 bold')
+    lb3 = Label(dell, text='Tabela', foreground='darkgreen', bg='#55cec8', font='Arial 14 bold')
     lb3.place(x=10, y=120)
 
-    lb4 = Label(dell, text='ID', foreground='yellow', bg='gray', font='Arial 14 bold')
+    lb4 = Label(dell, text='ID', foreground='darkgreen', bg='#55cec8', font='Arial 14 bold')
     lb4.place(x=268, y=120)
 
     en4 = Entry(dell)
@@ -124,17 +124,17 @@ def CDT():
         root.destroy()
 
     root = Tk()
-    root['bg'] = 'white'
-    lb0 = Label(root, text='CADASTRO DE CLIENTES', foreground='blue', bg='white', font='Arial 15 bold')
+    root['bg'] = '#5dc9aa'
+    lb0 = Label(root, text='CADASTRO DE CLIENTES', foreground='blue', bg='#5dc9aa', font='Arial 15 bold')
     lb0.place(x=67, y=0)
-    lb1 = Label(root, text='Nome', foreground='blue', bg='white', font='Arial 12 bold')
-    lb2 = Label(root, text='Idade', foreground='blue', bg='white', font='Arial 12 bold')
-    lb3 = Label(root, text='CPF', foreground='blue', bg='white', font='Arial 12 bold')
-    lb4 = Label(root, text='Email', foreground='blue', bg='white', font='Arial 12 bold')
-    lb5 = Label(root, text='Telefone', foreground='blue', bg='white', font='Arial 12 bold')
-    lb6 = Label(root, text='CEP', foreground='blue', bg='white', font='Arial 12 bold')
-    lb7 = Label(root, text='Enderesso', foreground='blue', bg='white', font='Arial 12 bold')
-    lb8 = Label(root, text='Nome Da Tabela', foreground='blue', bg='white', font='Arial 12 bold')
+    lb1 = Label(root, text='Nome', foreground='blue', bg='#5dc9aa', font='Arial 12 bold')
+    lb2 = Label(root, text='Idade', foreground='blue', bg='#5dc9aa', font='Arial 12 bold')
+    lb3 = Label(root, text='CPF', foreground='blue', bg='#5dc9aa', font='Arial 12 bold')
+    lb4 = Label(root, text='Email', foreground='blue', bg='#5dc9aa', font='Arial 12 bold')
+    lb5 = Label(root, text='Telefone', foreground='blue', bg='#5dc9aa', font='Arial 12 bold')
+    lb6 = Label(root, text='CEP', foreground='blue', bg='#5dc9aa', font='Arial 12 bold')
+    lb7 = Label(root, text='Enderesso', foreground='blue', bg='#5dc9aa', font='Arial 12 bold')
+    lb8 = Label(root, text='Nome Da Tabela', foreground='blue', bg='#5dc9aa', font='Arial 12 bold')
 
     lb1.place(x=5, y=30)
     lb2.place(x=5, y=60)
@@ -216,27 +216,27 @@ def VER():
     upd = Tk()
 
     upd.title('DB_UPDATE')
-    upd['bg'] = 'gray'
+    upd['bg'] = '#5dc9aa'
 
-    fr = Frame(upd, width=500, height=30, bg='white')
+    fr = Frame(upd, width=500, height=30, bg='#5dc9aa')
     fr.pack(side=TOP)
 
     fr1 = Frame(upd, width=270, height=300, bg='white')
     fr1.place(x=50, y=160)
 
-    lb0 = Label(fr, text='VERIFICAR CLIENTE DO BANCO', foreground='blue', bg='white', font='Arial 15 bold')
+    lb0 = Label(fr, text='VERIFICAR CLIENTE DO BANCO', foreground='blue', bg='#5dc9aa', font='Arial 15 bold')
     lb0.place(x=50, y=0)
 
-    lb2 = Label(upd, text='INFORMAÇÕES DE CLIENTE', foreground='yellow', bg='gray', font='Arial 16 bold')
+    lb2 = Label(upd, text='INFORMAÇÕES DO CLIENTE', foreground='yellow', bg='#5dc9aa', font='Arial 16 bold')
     lb2.place(x=53, y=40)
 
     bt2 = Button(upd, text='VERIFICAR', foreground='red', bg='yellow', command=VerInfo)
     bt2.place(x=160, y=80)
 
-    lb3 = Label(upd, text='Tabela', foreground='yellow', bg='gray', font='Arial 14 bold')
+    lb3 = Label(upd, text='Tabela', foreground='yellow', bg='#5dc9aa', font='Arial 14 bold')
     lb3.place(x=10, y=120)
 
-    lb4 = Label(upd, text='ID', foreground='yellow', bg='gray', font='Arial 14 bold')
+    lb4 = Label(upd, text='ID', foreground='yellow', bg='#5dc9aa', font='Arial 14 bold')
     lb4.place(x=268, y=120)
 
     en4 = Entry(upd)
@@ -299,18 +299,18 @@ invalido''', bg='white', foreground='red')
         root.destroy()
 
     root = Tk()
-    root['bg'] = 'white'
-    lb0 = Label(root, text='ATUALIZA CLIENTES', foreground='blue', bg='white', font='Arial 15 bold')
+    root['bg'] = '#5dee8f'
+    lb0 = Label(root, text='ATUALIZA CLIENTES', foreground='blue', bg='#5dee8f', font='Arial 15 bold')
     lb0.place(x=67, y=0)
-    lb1 = Label(root, text='Nome', foreground='blue', bg='white', font='Arial 12 bold')
-    lb2 = Label(root, text='Idade', foreground='blue', bg='white', font='Arial 12 bold')
-    lb3 = Label(root, text='CPF', foreground='blue', bg='white', font='Arial 12 bold')
-    lb4 = Label(root, text='Email', foreground='blue', bg='white', font='Arial 12 bold')
-    lb5 = Label(root, text='Telefone', foreground='blue', bg='white', font='Arial 12 bold')
-    lb6 = Label(root, text='CEP', foreground='blue', bg='white', font='Arial 12 bold')
-    lb7 = Label(root, text='Enderesso', foreground='blue', bg='white', font='Arial 12 bold')
-    lb8 = Label(root, text='Nome Da Tabela', foreground='blue', bg='white', font='Arial 12 bold')
-    lb9 = Label(root, text='ID', foreground='blue', bg='white', font='Arial 12 bold')
+    lb1 = Label(root, text='Nome', foreground='blue', bg='#5dee8f', font='Arial 12 bold')
+    lb2 = Label(root, text='Idade', foreground='blue', bg='#5dee8f', font='Arial 12 bold')
+    lb3 = Label(root, text='CPF', foreground='blue', bg='#5dee8f', font='Arial 12 bold')
+    lb4 = Label(root, text='Email', foreground='blue', bg='#5dee8f', font='Arial 12 bold')
+    lb5 = Label(root, text='Telefone', foreground='blue', bg='#5dee8f', font='Arial 12 bold')
+    lb6 = Label(root, text='CEP', foreground='blue', bg='#5dee8f', font='Arial 12 bold')
+    lb7 = Label(root, text='Enderesso', foreground='blue', bg='#5dee8f', font='Arial 12 bold')
+    lb8 = Label(root, text='Nome Da Tabela', foreground='blue', bg='#5dee8f', font='Arial 12 bold')
+    lb9 = Label(root, text='ID', foreground='blue', bg='#5dee8f', font='Arial 12 bold')
 
     lb1.place(x=5, y=30)
     lb2.place(x=5, y=60)
@@ -418,10 +418,10 @@ DE CLIENTES''', foreground='yellow', bg='red', font='Arial 11 bold', command=Lis
     lb3 = Label(fr2, text=var, foreground='blue', bg='white', font='Arial 14 bold')
     lb3.place(x=10, y=100)
 
-im = PhotoImage(file="/root/TK/Tkinter/imagens/test0.gif")
+im = PhotoImage(file="foto02.png") #/root/TK/Tkinter/imagens/test0.gif")
 w = Label(app, image=im)
 w.im = im
-w.place(x=-3, y=-50)
+w.place(x=-50, y=-50)
 
 fr = Frame(app, width=500, height=30, bg='gray')
 fr.pack(side=TOP)
@@ -432,10 +432,10 @@ fr1.place(x=314, y=30)
 fr2 = Frame(app, width=180, height=400, bg='white')
 fr2.pack(side=RIGHT)
 
-im1 = PhotoImage(file="/root/TK/Tkinter/imagens/p.png")
+im1 = PhotoImage(file="foto01.png") #/root/TK/Tkinter/imagens/p.png")
 w1 = Label(fr2, image=im1)
 w1.im1 = im1
-w1.place(x=3, y=40)
+w1.place(x=-100, y=-20)
 
 lb3 = Label(fr2, text='TABELAS DO BANCO', foreground='blue', font='Arial 12 bold')
 lb3.place(x=0, y=0)
