@@ -258,7 +258,7 @@ app['bg'] = 'white'
 app.title('Gera PJ Express e React-js')
 #app.iconbitmap('i.icon')
 
-im = PhotoImage(file="foto02.png") #/root/TK/Tkinter/imagens/test0.gif")
+im = PhotoImage(file="imagens/foto02.png") #/root/TK/Tkinter/imagens/test0.gif")
 w = Label(app, image=im)
 w.im = im
 w.place(x=-50, y=-50)
